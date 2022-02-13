@@ -1,0 +1,48 @@
+.container {
+	display: flex;
+	border-radius: 4px;
+	border: 1px solid rgba(118, 118, 118, 0.3);
+	background-color: white;
+	overflow: hidden;
+}
+
+.btn {
+	border: none;
+	color: #428bca;
+	cursor: pointer;
+	flex: 1 1 auto;
+	line-height: 1;
+	padding: 8px;
+	vertical-align: middle;
+	background-color: white;
+}
+
+.btn:not(:last-child) {
+	border-right: 1px solid rgba(118, 118, 118, 0.3);
+}
+
+.btn:disabled {
+	cursor: auto;
+	color: rgba(118, 118, 118, 0.3);
+}
+
+.active {
+	background-color: #428bca;
+	color: white;
+}
+
+.btn_prev::before {
+	content: '\2039';
+}
+
+.btn_next::before {
+	content: '\203A';
+}
+
+.btn_start::before {
+	content: '\00AB';
+}
+
+.btn_end::before {
+	content: '\00BB';
+}

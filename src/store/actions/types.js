@@ -1,0 +1,10 @@
+export const FETCH_TODOS = 'FETCH_TODOS'
+export const GET_TODOS_COUNT = 'GET_TODOS_COUNT'
+export const ADD_TODO = 'ADD_TODO'
+export const TOGGLE_TODO = 'TOGGLE_TODO'
+export const UPDATE_TODO = 'UPDATE_TODO'
+export const DELETE_TODO = 'DELETE_TODO'
+export const FETCH_START = 'FETCH_START'
+export const FETCH_ERROR = 'FETCH_ERROR'
+export const SET_PAGINATE = 'SET_PAGINATE'
+

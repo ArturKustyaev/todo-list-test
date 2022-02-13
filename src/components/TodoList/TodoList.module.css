@@ -1,0 +1,13 @@
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.todo_list_container {
+    margin-bottom: 24px;
+}
+
+.empty_list{
+    text-align: center;
+}
+
